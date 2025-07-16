@@ -97,13 +97,6 @@
       letter.style.opacity = '1';
       showBtn.style.display = 'none';
     });
-
-    window.addEventListener('scroll', () => {
-      const scrolledToBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
-      if (scrolledToBottom) {
-        letter.style.opacity = '0';
-      }
-    });
   </script>
 </body>
 </html>
